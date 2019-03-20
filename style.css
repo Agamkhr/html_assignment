@@ -1,0 +1,47 @@
+.heading{
+    text-transform: uppercase;
+}.box1 {
+    background-color: darkgrey;
+    height: 100%;
+    position: relative;
+    margin-right: 250px;
+    margin-left: 250px;
+    z-index: 6;
+}
+.flex-box
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-box>div{
+    width:200px;
+    height: 200px;
+    margin: 5px;
+    text-align: center;
+    padding-top: 50px;
+}
+.header1{
+    background-color: white
+}
+.button{
+    background-color: white;
+}
+.footer1{
+    z-index: 5;
+    position: relative;
+    top: 20px;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+}
+.button1{
+    background-color: darkslateblue
+}
+.footer2{
+    z-index: 5;
+    position: relative;
+    top: 20px;
+    height: 60px;
+    background-color: darkslateblue;
+}
